@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+  header .header_all {
+    padding-right: 30px;
+  }
+  header .header_all .mobile_part {
+    display: block;
+  }
+  header .header_all .log_reg, header .header_all .navigation {
+    display: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  main #section1 {
+    height: 439px;
+  }
+  main #section1 .section_all {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 20px;
+  }
+  main #section1 .section_all .title h1 {
+    font-size: 1.8em;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  main #section1 .section_all .rigth_part {
+    display: flex;
+    justify-content: center;
+  }
+  main #section1 .section_all .rigth_part img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=responsive.css.map */

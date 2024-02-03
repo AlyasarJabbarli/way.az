@@ -1,0 +1,42 @@
+@media screen and (max-width: 1024px) {
+        header{
+            .header_all{
+                padding-right: 30px;
+                .mobile_part{
+                    display: block;
+                }
+                .log_reg, .navigation{
+                    display: none;
+                }
+            }
+        }
+}
+@media screen and (max-width:860px) {
+    main {
+        #section1 {
+            height: 439px;
+            .section_all {
+                flex-direction: column;
+                justify-content: center;
+                gap: 40px;
+                padding: 0 20px;
+                .title{
+                    h1{
+                        font-size: 1.8em;
+                        line-height: 35px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .rigth_part{
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 100%;
+                        max-width: 450px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
